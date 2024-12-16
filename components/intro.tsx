@@ -30,12 +30,12 @@ export default function IntroSection() {
     <section ref={sectionRef} className="max-w-6xl mx-auto px-4 py-16 md:py-24">
       <div className="space-y-6">
         <p className="fade-in text-sm tracking-[0.2em] uppercase text-muted-foreground">
-          Musician - Artist - Producer
+          Web - Mobile - UI/UX
         </p>
 
         <h1 className="fade-in text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight leading-tight">
-          Innovative Music Producer Crafting Immersive Soundscapes and
-          Redefining Modern Music.
+          Innovative freelancer offering effective solutions tailored to your
+          business.
         </h1>
       </div>
     </section>

@@ -28,98 +28,98 @@ export function BentoGridSecondDemo() {
 
 const items = [
   {
-    title: "Orion",
+    title: "Alan Realty",
     description: "Sit back and enjoy your ride to.......ORION",
     header: (
       <Image
         alt="single"
-        src={"/hero-bg.png"}
+        src={"/alanreyeswebsite.png"}
         width={1000}
         height={1000}
         className="w-full object-cover h-full rounded-lg"
       />
     ),
-    link: "https://www.youtube.com/watch?v=q-R-YfHlX5c",
+    link: "https://alanreyesrealty.com/",
     className: "md:col-span-2",
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Centaurus",
+    title: "Kasteos",
     description: "What really happens inside a black hole?",
     header: (
       <Image
         alt="single"
-        src={"/centaurus.png"}
+        src={"/kasteos.png"}
         width={1000}
         height={1000}
-        className="w-full object-cover h-full rounded-lg"
+        className="w-full h-full object-cover bg-red-100 rounded-lg"
       />
     ),
-    link: "https://www.youtube.com/watch?v=HUmtrpNgUsY",
+    link: "https://kasteos.com",
     className: "md:col-span-1",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "What Now",
+    title: "DougsTractorWorks",
     description: "Discover the beauty of thoughtful and functional design.",
     header: (
       <Image
         alt="single"
-        src={"/whatnow.png"}
+        src={"/dougstractorworks.png"}
         width={1000}
         height={1000}
         className="w-full object-cover h-full rounded-lg"
       />
     ),
-    link: "https://www.youtube.com/watch?v=7idV2cA9Sf0",
+    link: "https://dougstractorworks.com",
     className: "md:col-span-1",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Roullete",
+    title: "Rooted Truth",
     description: "Always bet on black cause the odds are always in your favor.",
     header: (
       <Image
         alt="single"
-        src={"/roullete.png"}
+        src={"/rootedtruthwebsite.png"}
         width={1000}
         height={1000}
         className="w-full object-cover h-full rounded-lg"
       />
     ),
-    link: "https://www.youtube.com/watch?v=R5Y7oQPK3AUs",
+    link: "https://rootedtruth.vercel.app/",
     className: "md:col-span-2",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Iron",
+    title: "Portfolio",
     description: "Always bet on black cause the odds are always in your favor.",
     header: (
       <Image
         alt="single"
-        src={"/iron.png"}
+        src={"/portfoliowebsite.png"}
         width={1000}
         height={1000}
         className="w-full object-cover h-full rounded-lg"
       />
     ),
-    link: "https://www.youtube.com/watch?v=R5Y7oQPK3AUs",
+    link: "https://sahak-portfolio.com",
     className: "md:col-span-2",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Imperium",
+    title: "Cordelia Photography",
     description: "Always bet on black cause the odds are always in your favor.",
     header: (
       <Image
         alt="single"
-        src={"/imperium.png"}
+        src={"/cordeliawebsite.png"}
         width={1000}
         height={1000}
         className="w-full object-cover h-full rounded-lg"
       />
     ),
-    link: "https://www.youtube.com/watch?v=R5Y7oQPK3AUs",
+    link: "https://www.cordeliafaithphotography.ca/",
     className: "md:col-span-1",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },

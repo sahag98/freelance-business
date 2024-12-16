@@ -8,57 +8,51 @@ const orbitron = Orbitron({
 });
 
 const seoKeywords = [
-  "California music producer",
-  "Music producer in California",
-  "Top music producer California",
-  "Best music producer in California",
-  "Professional music production services",
-  "Hip hop producer California",
-  "Pop music producer California",
-  "Custom music production California",
-  "Music producer portfolio",
-  "Music production studio California",
-  "Music producer for hire California",
-  "Music producer demo reel",
-  "Music producer for artists in California",
-  "California recording studio",
-  "Sound production California",
-  "Song production services California",
-  "Producer portfolio music California",
-  "Music producer for independent artist",
+  "freelance web developer",
+  "freelance mobile developer",
+  "hire freelance web developer",
+  "hire mobile app developer",
+  "freelance web development services",
+  "freelance mobile development",
+  "freelance web design",
+  "freelance app developer",
+  "mobile app development freelancer",
+  "web and mobile development",
+  "freelance software developer",
+  "web development for freelancers",
+  "mobile app design and development",
+  "affordable freelance web developer",
+  "freelance web development solutions",
+  "hire mobile app developer online",
+  "top freelance web developers",
+  "custom web development freelance",
+  "freelance web and app development",
+  "professional freelance mobile app development",
 ];
 
 export const metadata: Metadata = {
-  title: "Kasteo | Music Producer",
+  title: "Web&Mobile | Freelancer",
   description:
-    "Innovative Music Producer Crafting Immersive Soundscapes and Redefining Modern Music.",
+    "Innovative freelancer offering effective solutions tailored to your business.",
   keywords: seoKeywords,
   authors: [
     {
-      name: "Kasteo",
-      url: "url",
+      name: "webmobilefreelance",
+      url: "https://webmobilefreelance.com",
     },
   ],
-  creator: "Kasteo",
+  creator: "webmobilefreelance",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "website-url",
-    title: "Kasteo | Music Producer",
+    url: "https://webmobilefreelance.com",
+    title: "Web&Mobile | Freelancer",
     description:
-      "Innovative Music Producer Crafting Immersive Soundscapes and Redefining Modern Music.",
-    siteName: "Kasteo | Music Producer",
-    // images: [
-    //   {
-    //     url: siteConfig.ogImage,
-    //     width: 1200,
-    //     height: 630,
-    //     alt: siteConfig.name,
-    //   },
-    // ],
+      "Innovative freelancer offering effective solutions tailored to your business.",
+    siteName: "Web&Mobile | Freelancer",
   },
   icons: {
-    icon: "/logo.PNG",
+    icon: "/icon.png",
   },
 };
 

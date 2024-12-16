@@ -8,7 +8,7 @@ export default function ContactFooter() {
       <div className="space-y-16">
         {/* Header */}
         <div className="text-center space-y-2">
-          <p className="text-sm tracking-widest">KASTEO</p>
+          <p className="text-sm tracking-widest">WEB&MOBILE</p>
           <h2 className="text-6xl font-bold tracking-wider">CONTACT</h2>
         </div>
 
@@ -20,56 +20,24 @@ export default function ContactFooter() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h3 className="text-xl font-medium tracking-wide">
-                MUSICIAN - ARTIST - PRODUCER
+                WEB - MOBILE - UI/UX
               </h3>
               <p className="text-gray-600">
-                Innovative Music Producer Crafting Immersive Soundscapes and
-                Redefining Modern Music.
+                Innovative freelancer offering effective solutions tailored to
+                your business.
               </p>
-            </div>
-
-            <div className="space-y-4">
-              <h4 className="text-sm tracking-wide">Listen on</h4>
-              <div className="flex gap-6">
-                <Link
-                  target="_blank"
-                  href={
-                    "https://open.spotify.com/artist/3K2JBrrtua09FRKEROwdbu?si=zlmro6kXR5mNfmUCJwtkgg&nd=1&dlsi=a809a6d0cf4d48c2"
-                  }
-                  className="hover:text-gray-600"
-                >
-                  <AiOutlineSpotify className="h-6 w-6" />
-                  <span className="sr-only">Spotify</span>
-                </Link>
-                <Link
-                  target="_blank"
-                  href={"https://music.apple.com/us/artist/kasteo/1779402467"}
-                  className="hover:text-gray-600"
-                >
-                  <AiOutlineApple className="h-6 w-6" />
-                  <span className="sr-only">Apple</span>
-                </Link>
-                <Link
-                  target="_blank"
-                  href={"https://www.youtube.com/@kasteo332"}
-                  className="hover:text-gray-600"
-                >
-                  <Youtube className="h-6 w-6" />
-                  <span className="sr-only">YouTube</span>
-                </Link>
-              </div>
             </div>
           </div>
 
           {/* Right Column */}
           <div className="space-y-8">
             <div className="space-y-2">
-              <h4 className="text-sm tracking-wide">Booking</h4>
+              <h4 className="text-sm tracking-wide">Email</h4>
               <Link
-                href="mailto:kasteomusic223@gmail.com"
+                href="mailto:sahag@webandmobilefreelance.com"
                 className="text-gray-600 hover:text-gray-900"
               >
-                kasteomusic223@gmail.com
+                sahag@webandmobilefreelance.com
               </Link>
             </div>
 
