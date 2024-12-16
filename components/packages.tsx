@@ -20,7 +20,7 @@ const Packages = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
-    //@ts-expect-error
+    //@ts-expect-error It wont be null
     const packageCards = packagesRef.current.querySelectorAll(".package-card");
 
     gsap.set([packageCards], { opacity: 0, y: 25 });

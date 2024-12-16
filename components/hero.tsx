@@ -1,7 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaApple, FaSpotify, FaYoutube } from "react-icons/fa";
 import HyperText from "./ui/hyper-text";
 import DotPattern from "./ui/dot-pattern";
 import { cn } from "@/lib/utils";

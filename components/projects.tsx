@@ -1,12 +1,5 @@
-"use client";
-import { useEffect, useRef } from "react";
 import { LensDemo } from "./LensDemo";
-import { Card, CardContent } from "./ui/card";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import gsap from "gsap";
 export function Portfolio() {
-  const portfolioRef = useRef(null);
-
   const portfolioItems = [
     {
       id: 1,
@@ -71,10 +64,7 @@ export function Portfolio() {
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
           Portfolio
         </h2>
-        <div
-          ref={portfolioRef}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-        >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {portfolioItems.map((item) => (
             <LensDemo key={item.id} item={item} />
             // <Card key={item.id}>

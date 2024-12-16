@@ -3,8 +3,8 @@ import { useState } from "react";
 import { Lens } from "./ui/lens";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { cn } from "@/lib/utils";
-import { Eye, Globe } from "lucide-react";
+
+import { Globe } from "lucide-react";
 import Link from "next/link";
 
 export function LensDemo({ item }: any) {
