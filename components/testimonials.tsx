@@ -34,7 +34,7 @@ const ReviewCard = ({
   return (
     <figure
       className={cn(
-        "relative w-96 cursor-pointer overflow-hidden rounded-xl border p-4",
+        "relative w-96 cursor-pointer overflow-hidden rounded-xl border p-2",
         // light styles
         "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
         // dark styles
@@ -49,7 +49,7 @@ const ReviewCard = ({
           </figcaption>
         </div>
       </div>
-      <blockquote className="mt-2 text-sm">{body}</blockquote>
+      <blockquote className="mt-2 text-xs tracking-wider">{body}</blockquote>
     </figure>
   );
 };

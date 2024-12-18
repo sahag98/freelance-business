@@ -7,7 +7,7 @@ export function Portfolio() {
       image: "/kasteos.png",
       link: "https://kasteos.com/",
       description:
-        "Crafted a sleek, modern website for a California-based music producer, featuring smooth animations, responsive design, and an engaging portfolio to showcase their talent and projects.",
+        "Crafted a sleek, modern website for a music producer, featuring smooth animations, responsive design, and an engaging portfolio to showcase their talent and projects.",
     },
     {
       id: 2,
@@ -43,19 +43,19 @@ export function Portfolio() {
     },
     {
       id: 6,
-      title: "Cordelia Photography",
-      image: "/cordeliawebsite.png",
-      link: "https://www.cordeliafaithphotography.ca/",
-      description:
-        "An elegant landing page for a photography business, showcasing a professional portfolio with high-quality images, client reviews, and easy-to-use contact forms for booking sessions.",
-    },
-    {
-      id: 7,
       title: "Portfolio Website",
       image: "/portfoliowebsite.png",
       link: "https://sahak-portfolio.com/",
       description:
         "A sophisticated personal portfolio showcasing a collection of completed projects, including case studies and design details, with a dark theme that emphasizes professionalism and creativity.",
+    },
+    {
+      id: 7,
+      title: "Cordelia Photography",
+      image: "/cordeliawebsite.png",
+      link: "https://www.cordeliafaithphotography.ca/",
+      description:
+        "An elegant landing page for a photography business, showcasing a professional portfolio with high-quality images, client reviews, and easy-to-use contact forms for booking sessions.",
     },
   ];
   return (
@@ -64,7 +64,7 @@ export function Portfolio() {
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
           Portfolio
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 gap-6">
           {portfolioItems.map((item) => (
             <LensDemo key={item.id} item={item} />
             // <Card key={item.id}>

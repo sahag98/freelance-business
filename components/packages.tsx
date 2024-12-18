@@ -58,15 +58,13 @@ const Packages = () => {
             <CardContent className="flex-grow">
               <p className="text-4xl font-bold mb-4">$300</p>
               <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
-                Ideal for individuals or small businesses needing a simple yet
-                professional online presence with essential features.
+                Ideal for small businesses needing a simple yet professional
+                online presence with essential features.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <CheckCircle2 className="mr-2 h-4 w-4 text-primary" />
-                  <span>
-                    Multi-page design (Home, About, Services, Contact)
-                  </span>
+                  <span>Multi-page design</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle2 className="mr-2 h-4 w-4 text-primary" />
@@ -93,7 +91,7 @@ const Packages = () => {
               </Link>
             </CardFooter>
           </Card>
-          <Card className="package-card bg-primary text-white flex flex-col">
+          <Card className="package-card bg-primary text-white dark:text-background flex flex-col">
             <CardHeader>
               <CardTitle className="text-xl font-bold">
                 Advanced Website
@@ -101,14 +99,14 @@ const Packages = () => {
             </CardHeader>
             <CardContent className="flex-grow">
               <p className="text-4xl font-bold mb-4">$600</p>
-              <p className="text-sm text-gray-300 dark:text-gray-400 mb-4">
-                Suitable for growing businesses needing a more comprehensive
-                website with easy content management.
+              <p className="text-sm text-gray-300 dark:text-gray-500 mb-4">
+                Suitable for growing businesses needing a comprehensive website
+                with easy content management.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
-                  <span>Multi-page design with advanced layouts</span>
+                  <span>Multi-page design</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle2 className="mr-2 h-4 w-4 text-background" />

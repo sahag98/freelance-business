@@ -21,7 +21,7 @@ export default function ContactFooter() {
               <h3 className="text-xl font-medium tracking-wide">
                 WEB - MOBILE - UI/UX
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 dark:text-gray-300">
                 Innovative freelancer offering effective solutions tailored to
                 your business.
               </p>
@@ -33,10 +33,10 @@ export default function ContactFooter() {
             <div className="space-y-2">
               <h4 className="text-sm tracking-wide">Email</h4>
               <Link
-                href="mailto:sahag@webandmobilefreelance.com"
-                className="text-gray-600 hover:text-gray-900"
+                href="mailto:sahag@webmobilefreelance.com"
+                className="text-gray-600 dark:text-gray-300 hover:text-gray-900"
               >
-                sahag@webandmobilefreelance.com
+                sahag@webmobilefreelance.com
               </Link>
             </div>
 
@@ -45,7 +45,7 @@ export default function ContactFooter() {
               <div className="flex gap-6">
                 <Link
                   target="_blank"
-                  href="https://www.instagram.com/_kasteo_/profilecard/?igsh=NTc4MTIwNjQ2YQ%3D%3D"
+                  href="https://www.instagram.com/webmobilefreelance"
                   className="hover:text-gray-600"
                 >
                   <Instagram className="h-6 w-6" />

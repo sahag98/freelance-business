@@ -5,6 +5,7 @@ import DotPattern from "./ui/dot-pattern";
 import { cn } from "@/lib/utils";
 import { RainbowButton } from "./ui/rainbow-button";
 import { MarqueeDemo } from "./testimonials";
+import { ModeToggle } from "./theme-toggle";
 
 const Hero = () => {
   return (
@@ -12,18 +13,22 @@ const Hero = () => {
       {/* <h1 className="font-bold md:text-6xl text-7xl">
         Web & Mobile Freelancing Excellence
       </h1> */}
+      <ModeToggle />
       <DotPattern
         className={cn(
           "[mask-image:radial-gradient(600px_circle_at_center,white,transparent)]"
         )}
       />
-      <HyperText className="font-bold md:text-7xl text-4xl" text="WEB&MOBILE" />
-      <p className=" mb-3 text-center md:w-1/2 w-full text-gray-500 md:text-xl dark:text-gray-400">
-        Transforming ideas into powerful digital solutions. Specializing in web
-        and mobile development to bring your vision to life.
+      <HyperText className="font-bold md:text-7xl text-5xl" text="WEB&MOBILE" />
+      <p className=" mb-3 text-sm tracking-widest text-center md:w-1/2 w-11/12 text-gray-500 md:text-xl dark:text-gray-400">
+        Transforming ideas into powerful digital solutions.
       </p>
-      <Link href={"https://cal.com/sahag-arz-d8kd8p/15min"} target="_blank">
-        <RainbowButton className="">Get Started</RainbowButton>
+      <Link
+        href={"https://cal.com/sahag-arz-d8kd8p/15min"}
+        className="mt-1"
+        target="_blank"
+      >
+        <RainbowButton className="font-extrabold">Get Started</RainbowButton>
       </Link>
       <MarqueeDemo />
     </div>
