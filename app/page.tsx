@@ -6,7 +6,7 @@ import { Portfolio } from "@/components/projects";
 
 export default function Home() {
   return (
-    <main className="min-h-screen space-y-16 relative">
+    <main className="min-h-screen space-y-16 flex flex-col items-center relative">
       <Hero />
       <IntroSection />
       <Packages />

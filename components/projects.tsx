@@ -59,8 +59,8 @@ export function Portfolio() {
     },
   ];
   return (
-    <section id="portfolio" className="w-full">
-      <div className=" px-4 md:px-32">
+    <section id="portfolio" className="container">
+      <div className="px-4 md:px-32">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
           Portfolio
         </h2>

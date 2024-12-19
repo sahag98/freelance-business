@@ -9,7 +9,7 @@ import { ModeToggle } from "./theme-toggle";
 
 const Hero = () => {
   return (
-    <div className="relative min-h-screen flex flex-col items-center justify-center">
+    <div className="relative min-h-screen w-full flex flex-col items-center justify-center">
       {/* <h1 className="font-bold md:text-6xl text-7xl">
         Web & Mobile Freelancing Excellence
       </h1> */}

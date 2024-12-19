@@ -23,7 +23,9 @@ export function LensDemo({ item }: any) {
 
           <div className="py-4 h-full flex flex-col justify-center gap-5  md:w-1/2 w-full relative z-20">
             <div className="flex items-center justify-between">
-              <h2 className=" text-2xl text-left font-bold">{item.title}</h2>
+              <h2 className="md:text-3xl text-2xl text-left font-bold">
+                {item.title}
+              </h2>
             </div>
             <p className=" text-left tracking-wider  mt-0">
               {item.description}

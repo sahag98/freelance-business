@@ -41,7 +41,7 @@ const Packages = () => {
   return (
     <section
       id="packages"
-      className="w-full py-12 md:py-24 lg:py-32"
+      className="w-full container py-12 md:py-24 lg:py-32"
       ref={packagesRef}
     >
       <div className="px-4 md:px-32">
