@@ -42,6 +42,14 @@ export const metadata: Metadata = {
       url: "https://webmobilefreelance.com",
     },
   ],
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1,
+    googleBot: "index, follow",
+  },
   creator: "webmobilefreelance",
   openGraph: {
     type: "website",
