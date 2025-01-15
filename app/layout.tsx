@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Inter, Montserrat, Orbitron, Raleway } from "next/font/google";
+import { Montserrat, Orbitron } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 
 const orbitron = Orbitron({
