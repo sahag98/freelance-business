@@ -2,6 +2,7 @@ import type { Config } from "tailwindcss";
 const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
+const { fontFamily } = require("tailwindcss/defaultTheme");
 export default {
   darkMode: ["class"],
   content: [
@@ -11,6 +12,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ["var(--font-montserrat)"], // Body text
+        orbitron: ["var(--font-orbitron)"], // Headings
+      },
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",

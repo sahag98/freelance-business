@@ -19,8 +19,13 @@ const Hero = () => {
           "[mask-image:radial-gradient(600px_circle_at_center,white,transparent)]"
         )}
       />
-      <HyperText className="font-bold md:text-7xl text-5xl" text="WEB&MOBILE" />
-      <p className=" mb-3 text-sm tracking-widest text-center md:w-1/2 w-11/12 text-gray-500 md:text-xl dark:text-gray-400">
+      <h1>
+        <HyperText
+          className="font-bold font-orbitron md:text-7xl text-5xl"
+          text="WEB&MOBILE"
+        />
+      </h1>
+      <p className="font-montserrat mb-3 text-sm tracking-widest text-center md:w-1/2 w-11/12 text-gray-500 md:text-xl dark:text-gray-400">
         Transforming ideas into powerful digital solutions.
       </p>
       <Link
@@ -28,7 +33,9 @@ const Hero = () => {
         className="mt-1"
         target="_blank"
       >
-        <RainbowButton className="font-extrabold">Get Started</RainbowButton>
+        <RainbowButton className="font-extrabold font-orbitron">
+          Get Started
+        </RainbowButton>
       </Link>
       <MarqueeDemo />
     </div>

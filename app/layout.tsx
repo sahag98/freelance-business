@@ -1,11 +1,18 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Orbitron } from "next/font/google";
+import { Inter, Montserrat, Orbitron, Raleway } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 
 const orbitron = Orbitron({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-orbitron",
+});
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-montserrat",
 });
 
 const seoKeywords = [
@@ -72,7 +79,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${orbitron.className} min-h-screen antialiased`}>
+      <body
+        className={`${orbitron.variable} ${montserrat.variable} min-h-screen antialiased`}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

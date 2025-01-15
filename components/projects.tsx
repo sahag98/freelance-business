@@ -11,6 +11,14 @@ export function Portfolio() {
     },
     {
       id: 2,
+      title: "Admin Staff Portal",
+      image: "/admin-portal.png",
+      link: "https://admin-staff-portal.vercel.app/",
+      description:
+        "Developed a secure and scalable admin staff portal for a church to manage staff purchase orders, budgets, and more.",
+    },
+    {
+      id: 3,
       title: "Doug's Tractor Works",
       image: "/dougstractorworks.png",
       link: "https://dougstractorworks.com/",
@@ -18,7 +26,15 @@ export function Portfolio() {
         "A clean and professional landing page designed for a tractor service business, featuring service details, a gallery, and an FAQ section to provide comprehensive information for potential customers.",
     },
     {
-      id: 3,
+      id: 4,
+      title: "Prayse Merch",
+      image: "/ecommerce.png",
+      link: "https://shop.prayse.app/",
+      description:
+        "Designed a modern and optimized ecommerce store for a Christian business, highlighting top products, new launches and more..",
+    },
+    {
+      id: 5,
       title: "Mr. O Fresh",
       image: "/mrofresh.png",
       link: "https://mrofresh.com/",
@@ -26,7 +42,7 @@ export function Portfolio() {
         "A visually engaging landing page for a car detailing business, highlighting service offerings with a vibrant design, integrated booking system, and a focus on local brand identity.",
     },
     {
-      id: 4,
+      id: 6,
       title: "Alan Reyes Real Estate",
       image: "/alanreyeswebsite.png",
       link: "https://alanreyesrealty.com/",
@@ -34,7 +50,7 @@ export function Portfolio() {
         "A modern and sleek landing page for a real estate agent, featuring property listings, client testimonials, and contact information to guide buyers through the home-buying process.",
     },
     {
-      id: 5,
+      id: 7,
       title: "Rooted Truth",
       image: "/rootedtruthwebsite.png",
       link: "https://rootedtruth.vercel.app/",
@@ -42,7 +58,7 @@ export function Portfolio() {
         "A minimalist and inspiring blog website focusing on faith-based content, with clean navigation for reading articles, reflections, and personal stories centered on spiritual growth.",
     },
     {
-      id: 6,
+      id: 8,
       title: "Portfolio Website",
       image: "/portfoliowebsite.png",
       link: "https://sahak-portfolio.com/",
@@ -50,7 +66,7 @@ export function Portfolio() {
         "A sophisticated personal portfolio showcasing a collection of completed projects, including case studies and design details, with a dark theme that emphasizes professionalism and creativity.",
     },
     {
-      id: 7,
+      id: 9,
       title: "Cordelia Photography",
       image: "/cordeliawebsite.png",
       link: "https://www.cordeliafaithphotography.ca/",
@@ -61,7 +77,7 @@ export function Portfolio() {
   return (
     <section id="portfolio" className="container">
       <div className="px-4 md:px-32">
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
+        <h2 className="text-3xl font-orbitron font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
           Portfolio
         </h2>
         <div className="grid grid-cols-1 gap-6">

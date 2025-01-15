@@ -45,63 +45,87 @@ const Packages = () => {
       ref={packagesRef}
     >
       <div className="px-4 md:px-32">
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
+        <h2 className="text-3xl font-orbitron font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
           Packages
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-          <Card className="package-card flex flex-col">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <Card className="package-card bg-primary text-white dark:text-background flex flex-col">
             <CardHeader>
-              <CardTitle className="text-xl font-bold">
-                Starter Website
+              <CardTitle className="text-xl font-orbitron font-bold">
+                Landing Page
               </CardTitle>
             </CardHeader>
-            <CardContent className="flex-grow">
-              <p className="text-4xl font-bold mb-4">$300</p>
-              <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
-                Ideal for small businesses needing a simple yet professional
-                online presence with essential features.
+            <CardContent className="flex-grow font-montserrat">
+              <p className="text-4xl font-orbitron font-bold mb-4">$400</p>
+              <p className="font-medium text-gray-300 dark:text-gray-500 mb-4">
+                Ideal for small businesses that are just starting up.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-center">
-                  <CheckCircle2 className="mr-2 h-4 w-4 text-primary" />
-                  <span>Multi-page design</span>
+                  <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
+                  <span>Single Page Design</span>
                 </li>
                 <li className="flex items-center">
-                  <CheckCircle2 className="mr-2 h-4 w-4 text-primary" />
-                  <span>Responsive layout</span>
+                  <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
+                  <span>Custom Design & Branding</span>
                 </li>
                 <li className="flex items-center">
-                  <CheckCircle2 className="mr-2 h-4 w-4 text-primary" />
-                  <span>Basic SEO setup</span>
+                  <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
+                  <span>Call-to-Action (CTA)</span>
                 </li>
                 <li className="flex items-center">
-                  <CheckCircle2 className="mr-2 h-4 w-4 text-primary" />
-                  <span>Contact form integration</span>
+                  <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
+                  <span>Mobile Optimization</span>
+                </li>
+                <li className="flex items-center">
+                  <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
+                  <span>SEO</span>
+                </li>
+                <li className="flex items-center">
+                  <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
+                  <span>Contact form</span>
                 </li>
               </ul>
             </CardContent>
-            <CardFooter>
+            <CardFooter className="flex flex-col gap-3">
               <Link
                 target="_blank"
+                className="w-full"
                 href={"https://cal.com/sahag-arz-d8kd8p/simple-website"}
               >
-                <Button className="w-full text-base font-bold">
+                <Button
+                  size={"lg"}
+                  className="w-full font-orbitron hover:bg-secondary bg-background text-foreground text-base font-bold"
+                >
                   Choose Plan
+                </Button>
+              </Link>
+              <Link
+                target="_blank"
+                className="w-full"
+                href={"https://cal.com/sahag-arz-d8kd8p/simple-website"}
+              >
+                <Button
+                  size={"lg"}
+                  variant={"outline"}
+                  className="w-full font-orbitron bg-primary text-white text-base font-bold"
+                >
+                  View Example
                 </Button>
               </Link>
             </CardFooter>
           </Card>
-          <Card className="package-card bg-primary text-white dark:text-background flex flex-col">
+          {/* <Card className="package-card bg-primary text-white dark:text-background flex flex-col">
             <CardHeader>
-              <CardTitle className="text-xl font-bold">
+              <CardTitle className="text-xl font-orbitron font-bold">
                 Advanced Website
               </CardTitle>
             </CardHeader>
-            <CardContent className="flex-grow">
-              <p className="text-4xl font-bold mb-4">$600</p>
-              <p className="text-sm text-gray-300 dark:text-gray-500 mb-4">
-                Suitable for growing businesses needing a comprehensive website
-                with easy content management.
+            <CardContent className="flex-grow font-montserrat">
+              <p className="text-4xl font-bold font-orbitron mb-4">$600</p>
+              <p className="font-medium text-gray-300 dark:text-gray-500 mb-4">
+                Suitable for growing businesses needing a website with easy
+                content management.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-center">
@@ -110,78 +134,106 @@ const Packages = () => {
                 </li>
                 <li className="flex items-center">
                   <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
-                  <span>Content Management System</span>
+                  <span>CMS</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
-                  <span>Advanced SEO optimization</span>
+                  <span>SEO</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
-                  <span>Analytics integration</span>
+                  <span>Analytics</span>
                 </li>
               </ul>
             </CardContent>
             <CardFooter>
               <Link
                 target="_blank"
+                className="w-full"
                 href={"https://cal.com/sahag-arz-d8kd8p/advanced-website"}
               >
-                <Button className="w-full text-base font-bold hover:bg-secondary bg-background text-foreground">
+                <Button className="w-full font-orbitron text-base font-bold hover:bg-secondary bg-background text-foreground">
                   Choose Plan
                 </Button>
               </Link>
             </CardFooter>
-          </Card>
+          </Card> */}
           <Card className="package-card flex flex-col">
             <CardHeader>
-              <CardTitle className="text-xl font-bold">Mobile App</CardTitle>
+              <CardTitle className="text-xl font-orbitron font-bold">
+                Mobile App
+              </CardTitle>
             </CardHeader>
-            <CardContent className="flex-grow">
-              <p className="text-4xl font-bold mb-4">$600</p>
-              <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+            <CardContent className="flex-grow font-montserrat">
+              <p className="text-4xl font-bold font-orbitron mb-4">$800</p>
+              <p className="font-medium text-gray-500 dark:text-gray-400 mb-4">
                 Ideal for startups or businesses wanting to enter the mobile
-                market with a basic but functional app.
+                market.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <CheckCircle2 className="mr-2 h-4 w-4 text-primary" />
-                  <span>Basic mobile app design</span>
+                  <span>Custom Design & Branding</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle2 className="mr-2 h-4 w-4 text-primary" />
-                  <span>iOS or Android platform</span>
+                  <span>iOS and Android platform</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle2 className="mr-2 h-4 w-4 text-primary" />
-                  <span>Core functionality implementation</span>
+                  <span>Essential Features</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle2 className="mr-2 h-4 w-4 text-primary" />
-                  <span>User authentication</span>
+                  <span>API Integration</span>
+                </li>
+                <li className="flex items-center">
+                  <CheckCircle2 className="mr-2 h-4 w-4 text-primary" />
+                  <span>Basic Testing & Optimization</span>
+                </li>
+                <li className="flex items-center">
+                  <CheckCircle2 className="mr-2 h-4 w-4 text-primary" />
+                  <span>Deployment Support</span>
                 </li>
               </ul>
             </CardContent>
-            <CardFooter>
+            <CardFooter className="flex flex-col gap-3">
               <Link
                 target="_blank"
+                className="w-full"
                 href={"https://cal.com/sahag-arz-d8kd8p/mobile-app"}
               >
-                <Button className="w-full text-base font-bold">
+                <Button
+                  size={"lg"}
+                  className="w-full font-orbitron text-base font-bold"
+                >
                   Choose Plan
+                </Button>
+              </Link>
+              <Link
+                target="_blank"
+                className="w-full"
+                href={"https://www.prayse.app/"}
+              >
+                <Button
+                  size={"lg"}
+                  variant={"outline"}
+                  className="w-full font-orbitron text-base font-bold"
+                >
+                  View Example
                 </Button>
               </Link>
             </CardFooter>
           </Card>
           <Card className="package-card flex flex-col">
             <CardHeader>
-              <CardTitle className="text-xl font-bold">
+              <CardTitle className="text-xl font-orbitron font-bold">
                 Custom Solution
               </CardTitle>
             </CardHeader>
-            <CardContent className="flex-grow">
-              <p className="text-4xl font-bold mb-4">Custom</p>
-              <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+            <CardContent className="flex-grow font-montserrat">
+              <p className="text-4xl font-bold font-orbitron mb-4">Custom</p>
+              <p className="font-medium text-gray-500 dark:text-gray-400 mb-4">
                 For enterprises or complex projects requiring tailored solutions
                 and ongoing support.
               </p>
@@ -204,15 +256,32 @@ const Packages = () => {
                 </li>
               </ul>
             </CardContent>
-            <CardFooter>
+            <CardFooter className="flex flex-col gap-3">
               <Link
                 target="_blank"
+                className="w-full"
                 href={
                   "https://cal.com/sahag-arz-d8kd8p/custom-solution?date=2024-12-11&month=2024-12"
                 }
               >
-                <Button className="w-full text-base font-bold">
+                <Button
+                  size={"lg"}
+                  className="w-full font-orbitron text-base font-bold"
+                >
                   Contact Us
+                </Button>
+              </Link>
+              <Link
+                target="_blank"
+                className="w-full"
+                href={"https://admin-staff-portal.vercel.app/"}
+              >
+                <Button
+                  size={"lg"}
+                  variant={"outline"}
+                  className="w-full font-orbitron text-base font-bold"
+                >
+                  View Example
                 </Button>
               </Link>
             </CardFooter>

@@ -29,14 +29,14 @@ export default function IntroSection() {
   return (
     <section ref={sectionRef} className="max-w-6xl mx-auto px-4 py-16 md:py-24">
       <div className="space-y-6">
-        <p className="fade-in text-sm tracking-[0.2em] uppercase text-muted-foreground">
+        <p className="fade-in font-montserrat text-gray-500 md:text-xl dark:text-gray-400 tracking-[0.2em] uppercase">
           Web - Mobile - UI/UX
         </p>
 
-        <h1 className="fade-in text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight leading-tight">
+        <h2 className="fade-in text-4xl font-orbitron md:text-5xl lg:text-6xl font-medium tracking-tight leading-tight">
           Innovative freelancer offering effective solutions tailored to your
           business.
-        </h1>
+        </h2>
       </div>
     </section>
   );
