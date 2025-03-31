@@ -9,8 +9,8 @@ export default function CTASection() {
             Ready to Transform Your Digital Presence?
           </h2>
           <p className="text-lg md:text-xl font-montserrat text-gray-700 mb-10 max-w-2xl mx-auto">
-            Let's collaborate to create a website that not only looks great but
-            drives results for your business.
+            Let&apos;s collaborate to create a website that not only looks great
+            but drives results for your business.
           </p>
 
           <Button

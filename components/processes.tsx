@@ -30,8 +30,8 @@ export default function ProcessSection() {
               01. Discovery
             </h3>
             <p className="text-gray-700 font-montserrat">
-              We'll discuss your goals, requirements, and vision to ensure I
-              fully understand your needs before starting any work.
+              We&apos;ll discuss your goals, requirements, and vision to ensure
+              I fully understand your needs before starting any work.
             </p>
           </div>
 
@@ -42,8 +42,8 @@ export default function ProcessSection() {
             </div>
             <h3 className="text-xl font-bold mb-3 font-orbitron">02. Design</h3>
             <p className="text-gray-700 font-montserrat">
-              I'll create wireframes and mockups for your approval before moving
-              to development.
+              I&apos;ll create wireframes and mockups for your approval before
+              moving to development.
             </p>
           </div>
 
@@ -56,8 +56,8 @@ export default function ProcessSection() {
               03. Development
             </h3>
             <p className="text-gray-700 font-montserrat">
-              Using modern technologies, I'll build your solution with clean,
-              efficient code.
+              Using modern technologies, I&apos;ll build your solution with
+              clean, efficient code.
             </p>
           </div>
 
@@ -112,7 +112,7 @@ export default function ProcessSection() {
             Ready to start your project?
           </p>
           <Button className="font-bold font-orbitron text-foreground text-lg">
-            Let's Talk
+            Let&apos;s Talk
           </Button>
         </div>
       </div>

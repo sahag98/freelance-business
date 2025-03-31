@@ -5,7 +5,6 @@ import DotPattern from "./ui/dot-pattern";
 import { cn } from "@/lib/utils";
 import { RainbowButton } from "./ui/rainbow-button";
 import { MarqueeDemo } from "./testimonials";
-import { ModeToggle } from "./theme-toggle";
 
 const Hero = () => {
   return (
