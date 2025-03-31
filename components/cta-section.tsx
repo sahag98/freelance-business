@@ -14,6 +14,7 @@ export default function CTASection() {
           </p>
 
           <Button
+            size={"lg"}
             variant={"default"}
             className="text-lg font-bold font-orbitron bg-palette-blue hover:bg-palette-cyan text-gray-800"
           >

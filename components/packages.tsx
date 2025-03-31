@@ -65,27 +65,27 @@ const Packages = () => {
               </p>
               <ul className="space-y-2">
                 <li className="flex items-center">
-                  <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
+                  <CheckCircle2 className="mr-2 h-4 w-4" />
                   <span>Multi-page Design</span>
                 </li>
                 <li className="flex items-center">
-                  <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
+                  <CheckCircle2 className="mr-2 h-4 w-4" />
                   <span>Custom Design & Branding</span>
                 </li>
                 <li className="flex items-center">
-                  <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
+                  <CheckCircle2 className="mr-2 h-4 w-4" />
                   <span>Call-to-Action (CTA)</span>
                 </li>
                 <li className="flex items-center">
-                  <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
+                  <CheckCircle2 className="mr-2 h-4 w-4" />
                   <span>Mobile Optimization</span>
                 </li>
                 <li className="flex items-center">
-                  <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
+                  <CheckCircle2 className="mr-2 h-4 w-4" />
                   <span>SEO</span>
                 </li>
                 <li className="flex items-center">
-                  <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
+                  <CheckCircle2 className="mr-2 h-4 w-4" />
                   <span>Contact form</span>
                 </li>
               </ul>
