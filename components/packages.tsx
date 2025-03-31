@@ -56,14 +56,17 @@ const Packages = () => {
               </CardTitle>
             </CardHeader>
             <CardContent className="flex-grow font-montserrat">
-              <p className="text-4xl font-orbitron font-bold mb-4">$400</p>
-              <p className="font-medium text-gray-300 dark:text-gray-500 mb-4">
-                Ideal for small businesses that are just starting up.
+              <p className="text-3xl font-orbitron font-bold mb-4">
+                Starting at $400
+              </p>
+              <p className="font-semibold mb-4">
+                Ideal for businesses that are just starting up or for those
+                seeking a more professional online presence.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
-                  <span>Single Page Design</span>
+                  <span>Multi-page Design</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
@@ -103,7 +106,7 @@ const Packages = () => {
               <Link
                 target="_blank"
                 className="w-full"
-                href={"https://sahags-stellar-site.webflow.io/"}
+                href={"https://dougstractorworks.com"}
               >
                 <Button
                   size={"lg"}
@@ -165,8 +168,10 @@ const Packages = () => {
               </CardTitle>
             </CardHeader>
             <CardContent className="flex-grow font-montserrat">
-              <p className="text-4xl font-bold font-orbitron mb-4">$800</p>
-              <p className="font-medium text-gray-500 dark:text-gray-400 mb-4">
+              <p className="text-3xl font-bold font-orbitron mb-4">
+                Starting at $800
+              </p>
+              <p className="font-medium  mb-4">
                 Ideal for startups or businesses wanting to enter the mobile
                 market.
               </p>

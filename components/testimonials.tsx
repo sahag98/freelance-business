@@ -37,9 +37,9 @@ const ReviewCard = ({
       className={cn(
         "relative w-96 cursor-pointer overflow-hidden rounded-xl border p-2",
         // light styles
-        "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
+        "border-gray-950/[.1] bg-background hover:bg-gray-950/[.05]",
         // dark styles
-        "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]"
+        "dark:border-gray-50/[.1] dark:bg-background dark:hover:bg-gray-50/[.15]"
       )}
     >
       <div className="flex flex-row items-center gap-2">
@@ -51,12 +51,12 @@ const ReviewCard = ({
           src={img}
         />
         <div className="flex flex-col">
-          <figcaption className="text-lg font-orbitron font-medium dark:text-white">
+          <figcaption className="md:text-lg text-sm font-orbitron font-medium dark:text-white">
             {name}
           </figcaption>
         </div>
       </div>
-      <blockquote className="mt-2 font-montserrat tracking-wider">
+      <blockquote className="mt-2 md:text-base text-sm font-montserrat tracking-wider">
         {body}
       </blockquote>
     </figure>

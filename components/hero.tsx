@@ -25,8 +25,8 @@ const Hero = () => {
           text="WEB&MOBILE"
         />
       </h1>
-      <p className="font-montserrat mb-3 text-sm tracking-widest text-center md:w-1/2 w-11/12 text-gray-500 md:text-xl dark:text-gray-400">
-        Transforming ideas into powerful digital solutions.
+      <p className="font-montserrat mb-3 font-medium tracking-widest text-center md:w-1/2 w-4/5 text-gray-500 md:text-xl dark:text-gray-400">
+        Modern Web & Mobile Solutions, Built for You.
       </p>
       <Link
         href={"https://cal.com/sahag-arz-d8kd8p/15min"}
@@ -34,7 +34,7 @@ const Hero = () => {
         target="_blank"
       >
         <RainbowButton className="font-extrabold font-orbitron">
-          Get Started
+          Get Your Website Now
         </RainbowButton>
       </Link>
       <MarqueeDemo />
