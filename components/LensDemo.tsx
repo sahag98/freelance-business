@@ -34,7 +34,7 @@ export function LensDemo({ item }: any) {
               <Button
                 variant={"default"}
                 size={"lg"}
-                className="text-base font-orbitron py-3 font-bold"
+                className="text-base bg-palette-blue text-foreground font-orbitron py-3 font-bold"
               >
                 Visit Website
               </Button>

@@ -35,28 +35,27 @@ const ReviewCard = ({
   return (
     <figure
       className={cn(
-        "relative w-96 cursor-pointer overflow-hidden rounded-xl border p-2",
-        // light styles
-        "border-gray-950/[.1] bg-background hover:bg-gray-950/[.05]",
-        // dark styles
-        "dark:border-gray-50/[.1] dark:bg-background dark:hover:bg-gray-50/[.15]"
+        "relative w-96 cursor-pointer overflow-hidden rounded-xl p-4",
+        "bg-gradient-to-br from-palette-cream to-palette-cyan",
+        "hover:from-palette-cyan hover:to-palette-blue transition-all duration-300",
+        "shadow-md hover:shadow-xl"
       )}
     >
-      <div className="flex flex-row items-center gap-2">
+      <div className="flex p-2 flex-row items-center gap-3">
         <Image
-          className="rounded-full"
-          width={32}
-          height={32}
+          className="rounded-full border-2 border-palette-blue"
+          width={40}
+          height={40}
           alt="testimony profile image"
           src={img}
         />
         <div className="flex flex-col">
-          <figcaption className="md:text-lg text-sm font-orbitron font-medium dark:text-white">
+          <figcaption className="md:text-lg text-sm font-orbitron font-medium text-gray-800">
             {name}
           </figcaption>
         </div>
       </div>
-      <blockquote className="mt-2 md:text-base text-sm font-montserrat tracking-wider">
+      <blockquote className="md:text-base text-sm font-montserrat tracking-wider text-gray-700 p-2">
         {body}
       </blockquote>
     </figure>
@@ -65,7 +64,7 @@ const ReviewCard = ({
 
 export function MarqueeDemo() {
   return (
-    <div className="absolute bottom-0 flex h-[200px] w-full flex-col items-center justify-center overflow-hidden rounded-lg">
+    <div className="absolute bottom-0 flex h-[250px] w-full flex-col items-center justify-center overflow-hidden rounded-lg">
       <Marquee pauseOnHover className="[--duration:20s]">
         {reviews.map((review) => (
           <ReviewCard key={review.username} {...review} />
@@ -76,8 +75,8 @@ export function MarqueeDemo() {
           <ReviewCard key={review.username} {...review} />
         ))}
       </Marquee> */}
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white dark:from-background"></div>
+      {/* <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-palette-cream via-palette-cream/50 to-transparent"></div>
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-palette-cream via-palette-cream/50 to-transparent"></div> */}
     </div>
   );
 }

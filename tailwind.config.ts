@@ -62,6 +62,14 @@ export default {
         "color-3": "hsl(var(--color-3))",
         "color-4": "hsl(var(--color-4))",
         "color-5": "hsl(var(--color-5))",
+        palette: {
+          cream: "#f8f0e5",
+          cyan: "#e3f6f5",
+          peach: "#ffd8be",
+          blue: "#bae5e5",
+          sage: "#d8e2dc",
+          gray: "#f0efeb",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

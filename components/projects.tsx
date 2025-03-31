@@ -75,7 +75,10 @@ export function Portfolio() {
     },
   ];
   return (
-    <section id="portfolio" className="container">
+    <section
+      id="portfolio"
+      className="container bg-palette-sage rounded-3xl py-16"
+    >
       <div className="px-4 md:px-32">
         <h2 className="text-3xl font-orbitron font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
           Portfolio

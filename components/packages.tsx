@@ -41,7 +41,7 @@ const Packages = () => {
   return (
     <section
       id="packages"
-      className="w-full container py-12 md:py-24 lg:py-32"
+      className="w-full container py-12 md:py-24 lg:py-32 rounded-3xl bg-palette-cream"
       ref={packagesRef}
     >
       <div className="px-4 md:px-32">
@@ -49,7 +49,7 @@ const Packages = () => {
           Packages
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <Card className="package-card bg-primary text-white dark:text-background flex flex-col">
+          <Card className="package-card bg-palette-cyan text-gray-800 flex flex-col hover:shadow-xl transition-all">
             <CardHeader>
               <CardTitle className="text-xl font-orbitron font-bold">
                 Landing Page
@@ -98,7 +98,7 @@ const Packages = () => {
               >
                 <Button
                   size={"lg"}
-                  className="w-full font-orbitron hover:bg-secondary bg-background text-foreground text-base font-bold"
+                  className="w-full font-orbitron hover:bg-palette-peach bg-palette-blue text-gray-800 text-base font-bold"
                 >
                   Choose Plan
                 </Button>
@@ -111,7 +111,7 @@ const Packages = () => {
                 <Button
                   size={"lg"}
                   variant={"outline"}
-                  className="w-full font-orbitron bg-primary text-white text-base font-bold"
+                  className="w-full font-orbitron bg-palette-cyan border-palette-blue text-gray-800 text-base font-bold hover:bg-palette-blue"
                 >
                   View Example
                 </Button>
@@ -161,7 +161,7 @@ const Packages = () => {
               </Link>
             </CardFooter>
           </Card> */}
-          <Card className="package-card flex flex-col">
+          <Card className="package-card flex flex-col bg-palette-peach hover:shadow-xl transition-all">
             <CardHeader>
               <CardTitle className="text-xl font-orbitron font-bold">
                 Mobile App
@@ -210,7 +210,7 @@ const Packages = () => {
               >
                 <Button
                   size={"lg"}
-                  className="w-full font-orbitron text-base font-bold"
+                  className="w-full font-orbitron text-base font-bold bg-palette-blue hover:bg-palette-cyan text-gray-800"
                 >
                   Choose Plan
                 </Button>
@@ -230,7 +230,7 @@ const Packages = () => {
               </Link>
             </CardFooter>
           </Card>
-          <Card className="package-card flex flex-col">
+          <Card className="package-card flex flex-col bg-palette-sage hover:shadow-xl transition-all">
             <CardHeader>
               <CardTitle className="text-xl font-orbitron font-bold">
                 Custom Solution
@@ -271,7 +271,7 @@ const Packages = () => {
               >
                 <Button
                   size={"lg"}
-                  className="w-full font-orbitron text-base font-bold"
+                  className="w-full font-orbitron text-base font-bold bg-palette-blue hover:bg-palette-cyan text-gray-800"
                 >
                   Contact Us
                 </Button>
