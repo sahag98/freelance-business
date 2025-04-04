@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Montserrat, Orbitron } from "next/font/google";
-import { ThemeProvider } from "@/components/theme-provider";
 
 const orbitron = Orbitron({
   subsets: ["latin"],
@@ -82,13 +81,7 @@ export default function RootLayout({
       <body
         className={`${orbitron.variable} ${montserrat.variable} min-h-screen antialiased`}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
+        {children}
       </body>
     </html>
   );
