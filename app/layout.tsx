@@ -62,6 +62,14 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://webmobilefreelance.com",
     title: "Web&Mobile | Freelancer",
+    images: [
+      {
+        url: "/freelance-website.png",
+        width: 1200,
+        height: 630,
+        alt: "Web&Mobile | Freelancer",
+      },
+    ],
     description:
       "Innovative freelancer offering effective solutions tailored to your business.",
     siteName: "Web&Mobile | Freelancer",
